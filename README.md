@@ -88,9 +88,6 @@ The following metrics summarize the performance of the YOLOv5 model on the valid
 ## Dataset
 This project uses the [Dry and Wet Waste dataset](https://universe.roboflow.com/bhushan-kinge/dry-and-wet-waste) from Roboflow for training the YOLOv5 model. The dataset contains labeled images of dry and wet waste, suitable for object detection tasks.
 
-## License
-This project is licensed under the terms of the LICENSE file in this repository.
-
 ## Contact
 For questions or support, contact [Vallabh Kulkarni](mailto:vallabhkulkarni028@gmail.com).
 
