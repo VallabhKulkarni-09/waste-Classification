@@ -9,6 +9,8 @@ This project is a machine learning-based waste classification system. It uses a 
 - Easy-to-use Python application
 
 ## Setup
+
+### Option 1: Local Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/VallabhKulkarni-09/waste-Classification.git
@@ -18,6 +20,27 @@ This project is a machine learning-based waste classification system. It uses a 
    ```bash
    pip install -r requirements.txt
    ```
+
+### Option 2: Using Docker
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VallabhKulkarni-09/waste-Classification.git
+   cd waste-Classification
+   ```
+
+2. Build the Docker image:
+   ```bash
+   docker build -t waste-classification .
+   ```
+
+3. Run the Docker container:
+   ```bash
+   docker run -p 8501:8501 waste-classification
+   ```
+
+4. Open your web browser and navigate to `http://localhost:8501`
+
+Note: The Docker version includes all dependencies and is ready to run without additional setup.
 
 ## Usage
 Run the application:
@@ -104,3 +127,16 @@ Contributions are welcome! If you would like to improve this project, please fol
 - Add docstrings and comments for new functions or modules.
 - If adding new features, update the documentation and README accordingly.
 - For bug fixes, describe the issue and how your fix resolves it.
+
+## Docker Development
+To modify the Docker setup:
+
+1. Edit the `Dockerfile` to update build steps or dependencies
+2. Rebuild the image after changes:
+   ```bash
+   docker build -t waste-classification .
+   ```
+3. Run with volume mount for development:
+   ```bash
+   docker run -p 8501:8501 -v $(pwd):/app waste-classification
+   ```
