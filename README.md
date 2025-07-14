@@ -92,7 +92,7 @@ This project uses the [Dry and Wet Waste dataset](https://universe.roboflow.com/
 This project is licensed under the terms of the LICENSE file in this repository.
 
 ## Contact
-For questions or support, contact [Vallabh Kulkarni](mailto:your-email@example.com).
+For questions or support, contact [Vallabh Kulkarni](mailto:vallabhkulkarni028@gmail.com).
 
 ## Contributing
 Contributions are welcome! If you would like to improve this project, please follow these steps:
